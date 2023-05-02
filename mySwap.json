@@ -1,0 +1,44 @@
+{
+    "title": "myself",
+    "rules": [
+        {
+            "description": "交换command+m与command+e",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "m",
+                        "modifiers": {
+                            "mandatory": ["command"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "e",
+                            "modifiers": [
+                                "command"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "e",
+                        "modifiers": {
+                            "mandatory": ["command"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "m",
+                            "modifiers": [
+                                "command"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

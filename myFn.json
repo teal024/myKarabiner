@@ -1,0 +1,490 @@
+{
+  "title": "in IDE Function keys work as fn keys",
+  "rules": [
+    {
+      "description": "in IDE Function keys work as fn keys",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f1"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f2"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f3",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f3"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f4"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f5"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f6",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f6"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f7"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f8"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f9"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f10"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f11"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f12",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f12"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.parallels\\.desktop\\.console$",
+                "^org\\.vmware\\.fusion$",
+                "^org\\.gnu\\.emacs$",
+                "^com\\.jetbrains",
+                "^com\\.microsoft\\.VSCode$",
+                "^com\\.sublimetext\\.3$",
+                "^net\\.kovidgoyal\\.kitty$",
+                "^com\\.citrix\\.XenAppViewer$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^io\\.alacritty$",
+                "^co\\.zeit\\.hyper$",
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.apple\\.Terminal$",
+                "^com\\.github\\.wez\\.wezterm$"
+            ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f12",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f12"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.google.Chrome"
+            ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

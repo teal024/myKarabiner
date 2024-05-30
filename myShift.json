@@ -1,0 +1,104 @@
+{
+    "title": "Use shift to switch input sources",
+    "rules": [
+        {
+            "description": "Use both shift to switch input sources",
+            "manipulators": [
+                {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.vmware\\.fusion$",
+                                "^com\\.vmware\\.view$",
+                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.vm$",
+                                "^com\\.parallels\\.desktop\\.console$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.citrix\\.XenAppViewer$",
+                                "^com\\.vmware\\.proxyApp\\.",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.oray\\.sunlogin\\.macclient$",
+                                "^com\\.microsoft\\.rdc\\.macos$"
+                            ],
+                            "type": "frontmost_application_unless"
+                        }
+                    ],
+                    "from": {
+                        "key_code": "left_shift",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                          "key_code":  "left_shift"
+                        }
+                      ],
+                    "to_if_alone": [
+                        {
+                            "key_code": "spacebar",
+                            "modifiers": "control"
+                        }
+                    ],
+                    "to_if_held_down": [
+                        {
+                            "key_code": "left_shift"
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.teamviewer\\.TeamViewer$",
+                                "^com\\.vmware\\.horizon$",
+                                "^com\\.vmware\\.fusion$",
+                                "^com\\.vmware\\.view$",
+                                "^com\\.parallels\\.desktop$",
+                                "^com\\.parallels\\.vm$",
+                                "^com\\.parallels\\.desktop\\.console$",
+                                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                                "^com\\.citrix\\.XenAppViewer$",
+                                "^com\\.vmware\\.proxyApp\\.",
+                                "^com\\.parallels\\.winapp\\.",
+                                "^com\\.oray\\.sunlogin\\.macclient$",
+                                "^com\\.microsoft\\.rdc\\.macos$"
+                            ],
+                            "type": "frontmost_application_unless"
+                        }
+                    ],
+                    "from": {
+                        "key_code": "right_shift",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                          "key_code":  "right_shift"
+                        }
+                      ],
+                    "to_if_alone": [
+                        {
+                            "key_code": "spacebar",
+                            "modifiers": "control"
+                        }
+                    ],
+                    "to_if_held_down": [
+                        {
+                            "key_code": "right_shift"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "my minimize",
+    "rules": [
+      {
+        "description": "option w to minimize",
+        "manipulators": [
+          {
+            "type": "basic",
+            "from": {
+              "key_code": "w",
+              "modifiers": {
+                "mandatory": ["option"]
+              }
+            },
+            "to": [
+              {
+                "key_code": "m",
+                "modifiers": [
+                  "command"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

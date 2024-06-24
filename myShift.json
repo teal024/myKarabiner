@@ -20,7 +20,8 @@
                                 "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.oray\\.sunlogin\\.macclient$",
-                                "^com\\.microsoft\\.rdc\\.macos$"
+                                "^com\\.microsoft\\.rdc\\.macos$",
+                                "^com\\.apple\\.ScreenSharing$"
                             ],
                             "type": "frontmost_application_unless"
                         }
@@ -67,7 +68,8 @@
                                 "^com\\.vmware\\.proxyApp\\.",
                                 "^com\\.parallels\\.winapp\\.",
                                 "^com\\.oray\\.sunlogin\\.macclient$",
-                                "^com\\.microsoft\\.rdc\\.macos$"
+                                "^com\\.microsoft\\.rdc\\.macos$",
+                                "^com\\.apple\\.ScreenSharing$"
                             ],
                             "type": "frontmost_application_unless"
                         }

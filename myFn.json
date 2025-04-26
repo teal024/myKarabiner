@@ -16,7 +16,8 @@
           },
           "to": [
             {
-              "key_code": "f1"
+              "key_code": "f1",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -29,6 +30,7 @@
                 "^org\\.gnu\\.emacs$",
                 "^com\\.jetbrains",
                 "^com\\.microsoft\\.VSCode$",
+                "^com\\.todesktop\\.230313mzl4w4u92",
                 "^com\\.sublimetext\\.3$",
                 "^net\\.kovidgoyal\\.kitty$",
                 "^com\\.citrix\\.XenAppViewer$",
@@ -54,7 +56,8 @@
           },
           "to": [
             {
-              "key_code": "f2"
+              "key_code": "f2",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -67,6 +70,7 @@
                 "^org\\.gnu\\.emacs$",
                 "^com\\.jetbrains",
                 "^com\\.microsoft\\.VSCode$",
+                "^com\\.todesktop\\.230313mzl4w4u92",
                 "^com\\.sublimetext\\.3$",
                 "^net\\.kovidgoyal\\.kitty$",
                 "^com\\.citrix\\.XenAppViewer$",
@@ -92,7 +96,8 @@
           },
           "to": [
             {
-              "key_code": "f3"
+              "key_code": "f3",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -130,7 +135,8 @@
           },
           "to": [
             {
-              "key_code": "f4"
+              "key_code": "f4",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -168,7 +174,8 @@
           },
           "to": [
             {
-              "key_code": "f5"
+              "key_code": "f5",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -206,7 +213,8 @@
           },
           "to": [
             {
-              "key_code": "f6"
+              "key_code": "f6",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -244,7 +252,8 @@
           },
           "to": [
             {
-              "key_code": "f7"
+              "key_code": "f7",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -282,7 +291,8 @@
           },
           "to": [
             {
-              "key_code": "f8"
+              "key_code": "f8",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -320,7 +330,8 @@
           },
           "to": [
             {
-              "key_code": "f9"
+              "key_code": "f9",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -358,7 +369,8 @@
           },
           "to": [
             {
-              "key_code": "f10"
+              "key_code": "f10",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -396,7 +408,8 @@
           },
           "to": [
             {
-              "key_code": "f11"
+              "key_code": "f11",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -434,7 +447,8 @@
           },
           "to": [
             {
-              "key_code": "f12"
+              "key_code": "f12",
+              "modifiers": ["fn"]
             }
           ],
           "conditions": [
@@ -456,30 +470,6 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^com\\.apple\\.Terminal$",
                 "^com\\.github\\.wez\\.wezterm$"
-            ]
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "f12",
-            "modifiers": {
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "f12"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "frontmost_application_if",
-              "bundle_identifiers": [
-                "com.google.Chrome"
             ]
             }
           ]
